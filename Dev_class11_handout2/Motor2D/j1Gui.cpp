@@ -9,7 +9,7 @@
 #include "j1Window.h"
 #include "j1Scene.h"
 #include "p2Animation.h"
-
+#include "Gui_Buttons.h"
 j1Gui::j1Gui() : j1Module()
 {
 	name.create("gui");
@@ -35,7 +35,7 @@ bool j1Gui::Start()
 {
 	
 	//atlas = App->tex->Load(atlas_file_name.GetString());
-
+	buttons_class = new Gui_Buttons();
 	buttons = App->tex->Load("gui/Button.png");
 	windows = App->tex->Load("gui/Windows2.png");
 	logo = App->tex->Load("gui/logo.png");

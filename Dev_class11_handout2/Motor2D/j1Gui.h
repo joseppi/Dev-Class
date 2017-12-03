@@ -2,12 +2,16 @@
 #define __j1GUI_H__
 
 #include "j1Module.h"
-#include "j1Fonts.h"
+#include "p2List.h"
+#include "SDL_ttf\include\SDL_ttf.h"
+
 
 #define CURSOR_WIDTH 2
 
 // TODO 1: Create your structure of classes
-
+struct SDL_Texture;
+struct SDL_Rect;
+class Gui_Buttons;
 // ---------------------------------------------------
 class j1Gui : public j1Module
 {
@@ -66,6 +70,9 @@ public:
 
 
 	p2SString			display_floating_score;
+
+	Gui_Buttons*			buttons_class;
+	
 
 };
 
