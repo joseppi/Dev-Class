@@ -1,0 +1,9 @@
+﻿  j1Gui.cpp
+c:\users\pi\documents\github\dev_class11_handout2\motor2d\j1gui.cpp(96): warning C4244: 'inicializando': conversión de 'float' a 'int'; posible pérdida de datos
+c:\users\pi\documents\github\dev_class11_handout2\motor2d\j1gui.cpp(97): warning C4244: 'inicializando': conversión de 'float' a 'int'; posible pérdida de datos
+c:\users\pi\documents\github\dev_class11_handout2\motor2d\j1gui.cpp(114): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\pi\documents\github\dev_class11_handout2\motor2d\j1gui.cpp(126): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+c:\users\pi\documents\github\dev_class11_handout2\motor2d\j1gui.cpp(138): warning C4244: 'inicializando': conversión de 'float' a 'int'; posible pérdida de datos
+c:\users\pi\documents\github\dev_class11_handout2\motor2d\j1gui.cpp(139): warning C4244: 'inicializando': conversión de 'float' a 'int'; posible pérdida de datos
+c:\users\pi\documents\github\dev_class11_handout2\motor2d\j1gui.cpp(141): warning C4244: 'argumento': conversión de 'double' a 'int'; posible pérdida de datos
+  Motor2D.vcxproj -> C:\Users\Pi\Documents\GitHub\Dev_class11_handout2\Debug\Development - Class 11 Handout2.exe

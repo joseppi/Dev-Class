@@ -1,0 +1,10 @@
+﻿  j1Textures.cpp
+  j1Scene.cpp
+  j1Render.cpp
+  j1Map.cpp
+c:\users\pi\documents\github\dev_class7.5_handout\motor2d\j1map.cpp(174): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+c:\users\pi\documents\github\dev_class7.5_handout\motor2d\j1map.cpp(175): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+  j1App.cpp
+  Generando código...
+  Motor2D.vcxproj -> C:\Users\Pi\Documents\GitHub\Dev_class7.5_handout\Debug\Dev Class7.5 Handout.exe
+  Motor2D.vcxproj -> C:\Users\Pi\Documents\GitHub\Dev_class7.5_handout\Debug\Dev Class7.5 Handout.pdb (Partial PDB)
