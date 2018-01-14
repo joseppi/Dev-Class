@@ -1,6 +1,1 @@
-﻿  j1App.cpp
-  Generating code
-  All 260 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
-  Finished generating code
-  Motor2D.vcxproj -> C:\Users\Pi\Documents\GitHub\Dev_class2_handout-save-load\Dev_class2_handout\Release\Motor 2D.exe
-  Motor2D.vcxproj -> C:\Users\Pi\Documents\GitHub\Dev_class2_handout-save-load\Dev_class2_handout\Release\Motor 2D.pdb (Full PDB)
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Platform.targets(57,5): error MSB8020: No se pueden encontrar las herramientas de compilación para v140 (Conjunto de herramientas de la plataforma = 'v140'). Para compilar con las herramientas de compilación v140, instale las herramientas de compilación v140. También puede actualizar a las herramientas actuales de Visual Studio. Para ello, seleccione el menú Proyecto o haga clic con el botón secundario en la solución y, a continuación, seleccione "Actualizar solución".
