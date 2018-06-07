@@ -101,9 +101,16 @@
     <Filter Include="Desenvolupament  ========\Tools\PuguiXML">
       <UniqueIdentifier>{7cb78d67-17cc-45eb-af97-e2106becce7b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Desenvolupament  ========\Files">
+      <UniqueIdentifier>{0b1facb9-49ee-40cf-960b-e7c55a452cfb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <Xml Include="..\Game\config.xml" />
-    <Xml Include="..\Game\savegame.xml" />
+    <Xml Include="..\Game\config.xml">
+      <Filter>Desenvolupament  ========\Files</Filter>
+    </Xml>
+    <Xml Include="..\Game\data.xml">
+      <Filter>Desenvolupament  ========\Files</Filter>
+    </Xml>
   </ItemGroup>
 </Project>

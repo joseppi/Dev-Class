@@ -92,6 +92,7 @@ public:
 	j1Audio*			audio;
 	j1Scene*			scene;
 
+
 private:
 
 	p2List<j1Module*>	modules;

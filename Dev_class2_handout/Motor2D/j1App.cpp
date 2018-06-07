@@ -151,6 +151,16 @@ void j1App::PrepareUpdate()
 void j1App::FinishUpdate()
 {
 	// TODO 1: This is a good place to call load / Save functions
+	if (want_to_load == 1)
+	{
+		LoadGameNow();
+		want_to_load = 0;
+	}
+	if (want_to_save == 1)
+	{
+		SaveGameNow();
+		want_to_save = 0;
+	}
 }
 
 // Call modules before each loop iteration
@@ -265,9 +275,12 @@ bool j1App::LoadGameNow()
 {
 	bool ret = false;
 	pugi::xml_document data;
-	pugi::xml_parse_result result = data.load_file("savegame.xml");
+	pugi::xml_node root;
 
-	if (!result != NULL)
+	pugi::xml_parse_result result = data.load_file("data.xml");
+
+
+	if (ret = result)
 	{
 		ret = false;
 		LOG("Error reading the file:: %s", result.description());
